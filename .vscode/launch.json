@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:autorelease-pool-cheatsheet}",
+            "name": "Debug autorelease-pool-cheatsheet",
+            "program": "${workspaceFolder:autorelease-pool-cheatsheet}/.build/debug/autorelease-pool-cheatsheet",
+            "preLaunchTask": "swift: Build Debug autorelease-pool-cheatsheet"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:autorelease-pool-cheatsheet}",
+            "name": "Release autorelease-pool-cheatsheet",
+            "program": "${workspaceFolder:autorelease-pool-cheatsheet}/.build/release/autorelease-pool-cheatsheet",
+            "preLaunchTask": "swift: Build Release autorelease-pool-cheatsheet"
+        }
+    ]
+}
